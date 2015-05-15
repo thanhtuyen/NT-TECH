@@ -286,26 +286,7 @@
                   </select>
                 </div>
               </div>
-              <div class="form-group">
-                <label class="col-sm-2 control-label" for="input-weight"><?php echo $entry_weight; ?></label>
-                <div class="col-sm-10">
-                  <input type="text" name="weight" value="<?php echo $weight; ?>" placeholder="<?php echo $entry_weight; ?>" id="input-weight" class="form-control" />
-                </div>
-              </div>
-              <div class="form-group">
-                <label class="col-sm-2 control-label" for="input-weight-class"><?php echo $entry_weight_class; ?></label>
-                <div class="col-sm-10">
-                  <select name="weight_class_id" id="input-weight-class" class="form-control">
-                    <?php foreach ($weight_classes as $weight_class) { ?>
-                    <?php if ($weight_class['weight_class_id'] == $weight_class_id) { ?>
-                    <option value="<?php echo $weight_class['weight_class_id']; ?>" selected="selected"><?php echo $weight_class['title']; ?></option>
-                    <?php } else { ?>
-                    <option value="<?php echo $weight_class['weight_class_id']; ?>"><?php echo $weight_class['title']; ?></option>
-                    <?php } ?>
-                    <?php } ?>
-                  </select>
-                </div>
-              </div>
+
               <div class="form-group">
                 <label class="col-sm-2 control-label" for="input-status"><?php echo $entry_status; ?></label>
                 <div class="col-sm-10">

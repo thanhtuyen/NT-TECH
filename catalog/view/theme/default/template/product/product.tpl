@@ -156,9 +156,10 @@
               <h2><?php echo $special; ?></h2>
             </li>
             <?php } ?>
-            <?php if ($tax) { ?>
+            <!--<?php if ($tax) { ?>
             <li><?php echo $text_tax; ?> <?php echo $tax; ?></li>
-            <?php } ?>
+            <?php } ?> -->
+              <li>Gia ban si: <h3><?php echo $price - 20; ?></h3> neu lay so luong 5 cai tro len</li>
             <?php if ($points) { ?>
             <li><?php echo $text_points; ?> <?php echo $points; ?></li>
             <?php } ?>

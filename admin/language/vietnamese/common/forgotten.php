@@ -14,7 +14,7 @@ $_['entry_password']  = 'Mật khẩu mới:';
 $_['entry_confirm']   = 'Xác nhận:';
 
 // Error
-$_['error_email']     = 'Lỗi: Tìm không thấy địa chỉ E-Mail trong hồ sơ của chúng tôi, hãy thử lại!';
+$_['error_email']     = 'Lỗi: Email không tồn tại';
 $_['error_password']  = 'Mật khẩu phải có từ 3 đến 20 ký tự!';
-$_['error_confirm']   = 'Mật khẩu và xác nhận mật khẩu không khớp!';
+$_['error_confirm']   = 'Mật khẩu và mật khẩu xác nhận không giống nhau!';
 ?>

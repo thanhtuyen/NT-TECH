@@ -87,7 +87,7 @@ $_['column_submission_id'] = 'Submission ID';
 $_['column_status'] = 'Status';
 $_['column_text'] = 'Response';
 $_['column_amazon_order_item_code'] = 'Amazon Order Product Code';
-?>
+
 // Entry
 $_['entry_merchant_id']				= 'Merchant ID';
 $_['entry_access_key']				= 'Access Key';
@@ -128,4 +128,4 @@ $_['error_access_secret']		    = 'Secret Key is required';
 $_['error_access_key']		        = 'Access Key is required';
 $_['error_merchant_id']		        = 'Merchant ID is required';
 $_['error_curreny']					= 'Your shop must have %s currency installed and enabled';
-$_['error_upload']					= 'Upload failed';
+$_['error_upload']					= 'Upload failed';?>
