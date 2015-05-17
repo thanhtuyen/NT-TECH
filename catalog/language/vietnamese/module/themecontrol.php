@@ -13,7 +13,7 @@ $_['text_elements']   = 'Layout Elements';
 $_['text_sidebar_left'] = 'Sidebar Left';
 $_['text_sidebar_right'] = 'Sidebar Right';
 
-$_['text_about_us'] = 'About Us';
+$_['text_about_us'] = 'Về Chúng Tôi';
 
 $_['quick_view']      = 'Quick View';
 

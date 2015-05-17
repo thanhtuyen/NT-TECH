@@ -30,8 +30,8 @@
             <li><a href="#tab-data" data-toggle="tab"><?php echo $tab_data; ?></a></li>
             <li><a href="#tab-links" data-toggle="tab"><?php echo $tab_links; ?></a></li>
             <li><a href="#tab-attribute" data-toggle="tab"><?php echo $tab_attribute; ?></a></li>
-            <li><a href="#tab-option" data-toggle="tab"><?php echo $tab_option; ?></a></li>
-            <li><a href="#tab-recurring" data-toggle="tab"><?php echo $tab_recurring; ?></a></li>
+            <!--<li><a href="#tab-option" data-toggle="tab"><?php echo $tab_option; ?></a></li>
+            <li><a href="#tab-recurring" data-toggle="tab"><?php echo $tab_recurring; ?></a></li>-->
             <li><a href="#tab-discount" data-toggle="tab"><?php echo $tab_discount; ?></a></li>
             <li><a href="#tab-special" data-toggle="tab"><?php echo $tab_special; ?></a></li>
             <li><a href="#tab-image" data-toggle="tab"><?php echo $tab_image; ?></a></li>
@@ -111,7 +111,7 @@
                   <?php } ?>
                 </div>
               </div>
-              <div class="form-group">
+              <!--<div class="form-group">
                 <label class="col-sm-2 control-label" for="input-sku"><span data-toggle="tooltip" title="<?php echo $help_sku; ?>"><?php echo $entry_sku; ?></span></label>
                 <div class="col-sm-10">
                   <input type="text" name="sku" value="<?php echo $sku; ?>" placeholder="<?php echo $entry_sku; ?>" id="input-sku" class="form-control" />
@@ -152,14 +152,14 @@
                 <div class="col-sm-10">
                   <input type="text" name="location" value="<?php echo $location; ?>" placeholder="<?php echo $entry_location; ?>" id="input-location" class="form-control" />
                 </div>
-              </div>
+              </div>-->
               <div class="form-group">
                 <label class="col-sm-2 control-label" for="input-price"><?php echo $entry_price; ?></label>
                 <div class="col-sm-10">
                   <input type="text" name="price" value="<?php echo $price; ?>" placeholder="<?php echo $entry_price; ?>" id="input-price" class="form-control" />
                 </div>
               </div>
-              <div class="form-group">
+              <!--<div class="form-group">
                 <label class="col-sm-2 control-label" for="input-tax-class"><?php echo $entry_tax_class; ?></label>
                 <div class="col-sm-10">
                   <select name="tax_class_id" id="input-tax-class" class="form-control">
@@ -173,7 +173,7 @@
                     <?php } ?>
                   </select>
                 </div>
-              </div>
+              </div>-->
               <div class="form-group">
                 <label class="col-sm-2 control-label" for="input-quantity"><?php echo $entry_quantity; ?></label>
                 <div class="col-sm-10">
@@ -186,7 +186,7 @@
                   <input type="text" name="minimum" value="<?php echo $minimum; ?>" placeholder="<?php echo $entry_minimum; ?>" id="input-minimum" class="form-control" />
                 </div>
               </div>
-              <div class="form-group">
+              <!--<div class="form-group">
                 <label class="col-sm-2 control-label" for="input-subtract"><?php echo $entry_subtract; ?></label>
                 <div class="col-sm-10">
                   <select name="subtract" id="input-subtract" class="form-control">
@@ -199,7 +199,7 @@
                     <?php } ?>
                   </select>
                 </div>
-              </div>
+              </div>-->
               <div class="form-group">
                 <label class="col-sm-2 control-label" for="input-stock-status"><span data-toggle="tooltip" title="<?php echo $help_stock_status; ?>"><?php echo $entry_stock_status; ?></span></label>
                 <div class="col-sm-10">
@@ -435,7 +435,7 @@
                 </table>
               </div>
             </div>
-            <div class="tab-pane" id="tab-option">
+            <!--<div class="tab-pane" id="tab-option">
               <div class="row">
                 <div class="col-sm-2">
                   <ul class="nav nav-pills nav-stacked" id="option">
@@ -638,8 +638,8 @@
                   </div>
                 </div>
               </div>
-            </div>
-            <div class="tab-pane" id="tab-recurring">
+            </div>-->
+            <!--<div class="tab-pane" id="tab-recurring">
               <div class="table-responsive">
                 <table class="table table-striped table-bordered table-hover">
                   <thead>
@@ -685,7 +685,7 @@
                   </tfoot>
                 </table>
               </div>
-            </div>
+            </div>-->
             <div class="tab-pane" id="tab-discount">
               <div class="table-responsive">
                 <table id="discount" class="table table-striped table-bordered table-hover">
