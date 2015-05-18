@@ -190,11 +190,20 @@ div.required .control-label:before {
 }
 /* menu */
 #menu {
-	background-color: #229ac8;
-	background-image: linear-gradient(to bottom, #23a1d1, #1f90bb);
-	background-repeat: repeat-x;
-	border-color: #1f90bb #1f90bb #145e7a;
-	min-height: 40px;
+    background:url("../image/red_dot.png")repeat scroll 0 0px, #fe3366 none repeat scroll 0 0;
+    border: 3px solid #f8265b;
+    border-radius: 5px;
+    box-shadow: 0 1px 1px 0 rgba(163, 163, 163, 0.3);
+    box-sizing: border-box;
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: "FontAwesome";
+	/*background-color: #229ac8;*/
+	/*background-image: linear-gradient(to bottom, #23a1d1, #1f90bb);*/
+	/*background-repeat: repeat-x;*/
+	/*border-color: #1f90bb #1f90bb #145e7a;*/
+	/*min-height: 40px;*/
 }
 #menu .nav > li > a {
 	color: #fff;
@@ -311,7 +320,9 @@ div.required .control-label:before {
 footer {
 	margin-top: 30px;
 	padding-top: 30px;
-	background-color: #303030;
+    background-color: #ffded9;
+    /*color: #ff2542;*/
+	/*background-color: #303030;*/
 	border-top: 1px solid #ddd;
 	color: #e2e2e2;
 }
@@ -416,10 +427,10 @@ footer h5 {
 .btn-primary {
 	color: #ffffff;
 	text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
-	background-color: #229ac8;
-	background-image: linear-gradient(to bottom, #23a1d1, #1f90bb);
+	background-color: #f8265b;
+	background-image: linear-gradient(to bottom,  #f8265b, #f8265f);
 	background-repeat: repeat-x;
-	border-color: #1f90bb #1f90bb #145e7a;
+	border-color: #1f90bb #f8265b #f8265f;
 }
 .btn-primary:hover, .btn-primary:active, .btn-primary.active, .btn-primary.disabled, .btn-primary[disabled] {
 	background-color: #1f90bb;
@@ -708,4 +719,8 @@ h2.price {
 /* fixed mobile cart quantity input */
 .input-group .form-control[name^=quantity] {
 	min-width: 50px;
+}
+.main_title{
+    margin-top: 10px;
+    margin-left: 20px;
 }
