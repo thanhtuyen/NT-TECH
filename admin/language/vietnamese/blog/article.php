@@ -26,13 +26,11 @@ $_['column_author']				= 'Author';
 $_['column_store']				= 'Store';
 
 // Entry
-$_['entry_title']				 	= 'Title:';
+$_['entry_title']				 	= 'Article Title:';
+$_['entry_meta_keyword']		= 'Meta Tag Keywords:';
+$_['entry_meta_description']  = 'Meta Tag Description:';
 $_['entry_description']		 	= 'Description:';
 $_['entry_tag']					= 'Article Tags:<br/><span class="help">Comma separated.</span>';
-$_['entry_blog_seo']				= 'Search Engine Optimization';
-$_['entry_blog_seo_title']		= 'Title:';
-$_['entry_blog_seo_desc']	   = 'Description:';
-$_['entry_blog_seo_keyword']	= 'Keyword:';
 $_['entry_author']				= 'Current Author:';
 $_['entry_assign_author']		= 'Change Author to:';
 $_['entry_created']				= 'Created Date:';
@@ -48,13 +46,6 @@ $_['entry_store']					= 'Stores:';
 $_['entry_related']				= 'Related Articles:';
 $_['entry_related_product']	= 'Related Products:';
 $_['entry_layout']				= 'Layout Override:';
-$_['entry_template']				= 'Specific Template:';
-$_['entry_comment']				= 'Comments Status:';
-$_['entry_comment_help']      = '<span class="help" style="float:right;">Overwrite comments setting. Default is inherited from blog Settings</span>';
-$_['entry_blog_seo_title_help']	   = '<span class="help help-inline">characters. Most search engine use a maximum of 60 chars for the title.</span>';
-$_['entry_blog_seo_desc_help']	   = '<span class="help help-inline">characters. Most search engine use a maximum of 160 chars for the description.</span>';
-$_['entry_blog_seo_keyword_help']	= '<span class="help" style="float:none">Comma separated list of your site keywords.</span>';
-
 
 $_['text_all']		 				= 'All';
 $_['text_select_image']			= 'Select Featured Image';

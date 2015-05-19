@@ -4,9 +4,6 @@ $_['heading_title']     = 'Ngôn ngữ';
 
 // Text
 $_['text_success']      = 'Hoàn tất: Bạn đã sửa đổi ngôn ngữ!';
-$_['text_list']         = 'Language List';
-$_['text_add']          = 'Add Language';
-$_['text_edit']         = 'Edit Language';
 
 // Column
 $_['column_name']       = 'Tên ngôn ngữ';
@@ -16,7 +13,6 @@ $_['column_action']     = 'Thao tác';
 
 // Entry
 $_['entry_name']        = 'Tên ngôn ngữ:';
-
 $_['entry_code']        = 'Mã:<br /><span class="help">Không thay đổi nếu là ngôn ngữ mặc định.</span>';
 $_['entry_locale']      = 'Địa phương:<br /><span class="help">eg: vi_VN.UTF-8,vi_VN,vi-vn,vietnamese</span>';
 $_['entry_image']       = 'Hình:<br /><span class="help">eg: vn.png</span>';
@@ -24,13 +20,6 @@ $_['entry_directory']   = 'Thư mục:<br /><span class="help">Tên thư mục n
 $_['entry_filename']    = 'Tên tệp:<br /><span class="help">ngôn ngữ chính không có phần mở rộng tên tập tin</span>';
 $_['entry_status']      = 'Trạng thái:<br /><span class="help">Ẩn/Hiện nó ở ngôn ngữ dropdown</span>';
 $_['entry_sort_order']  = 'Thứ tự:';
-// Help
-$_['help_code']         = 'Example: en. Do not change if this is your default language.';
-$_['help_locale']       = 'Example: en_US.UTF-8,en_US,en-gb,en_gb,english';
-$_['help_image']        = 'Example: gb.png';
-$_['help_directory']    = 'Name of the language directory (case-sensitive)';
-$_['help_filename']     = 'Main language filename without extension';
-$_['help_status']       = 'Hide/Show it in language dropdown';
 
 // Error
 $_['error_permission']  = 'Cảnh báo: Bạn không được phép sửa đổi ngôn ngữ!';

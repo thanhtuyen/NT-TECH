@@ -1,5 +1,5 @@
 <?php
-$_['heading_title']     = 'Ý kiến gần đây';
+$_['heading_title']     = 'Latest Comments';
 
-$_['text_comment_on']   = 'bật';
+$_['text_comment_on']   = 'on';
 ?>

@@ -5,25 +5,17 @@ $_['head_author']                = 'Author';
 // Text
 $_['text_tab_author']            = 'Authors';
 $_['text_author_name']           = 'Author Name';
-$_['text_author_articles']       = 'Articles';
 $_['text_author_group']          = 'Group';
 $_['text_author_user']           = 'User Name';
 $_['text_author_add']            = 'Add Author';
 $_['text_author_rename']         = 'Rename Author';
-$_['text_author_change']         = 'Transfer Author';
 $_['text_user']                  = 'User :';
 $_['text_author_name2']          = 'Author Name :';
 $_['text_author_group2']         = 'Set Author Group :';
 $_['text_author_rename2']        = 'Rename :';
-$_['text_author_change_from']    = 'From Author';
-$_['text_author_change_to']      = 'To Author';
-$_['text_user_required']         = 'User Required!';
-$_['text_user_notavail']         = '<span class="red">--- No User --- *</span>';
-
-$_['text_author_count']          = '<a href="%s" title="View article by %s">%s</a>';
-$_['text_user_notavail_help']    = '<div class="help">* Current author is not associated to admin <a href="%s" target="_blank">user</a>.</div>';
 $_['button_submit']              = 'Submit';
 $_['button_delete']              = 'Delete';
+$_['text_user_required']         = 'User Required!';
 
 $_['text_tab_permission']        = 'Permission';
 $_['text_perm_author']           = 'Author';
@@ -56,13 +48,10 @@ $_['text_success_addAuthor']     = 'Success: New author have been added!';
 $_['text_success_modifAuthor']   = 'Success: You have modified author!';
 $_['text_success_modifGroup']    = 'Success: You have modified group permission!';
 
-
 // Error 
-$_['error_noadmin_user']         = 'Attention: All author-admin is not associated to admin-user! Please create new admin-author!';
 $_['error_permission']           = 'Warning: You do not have permission to modify blog setting!';
 $_['error_user']                 = 'You must select user to add an author!';
 $_['error_author']               = 'Author must be between 3 and 28 characters!';
-$_['error_author_cantdel']       = 'Warning: The author cannot be deleted as it is currently assigned to articles!';
 $_['error_author_exist']         = 'Author name already exist!';
 $_['error_notauthor']            = 'Warning: You do not have permission as author, please refer to your Blog Manager administrator.';
 $_['error_nopermission']         = 'Attention: You do not have permission to access, please refer to your Blog Manager administrator.';

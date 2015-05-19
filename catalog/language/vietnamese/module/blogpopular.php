@@ -1,3 +1,3 @@
 <?php
-$_['heading_title']     = 'Bái viết tiêu biểu';
+$_['heading_title']     = 'Popular Articles';
 ?>

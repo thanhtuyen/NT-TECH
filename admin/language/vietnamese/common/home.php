@@ -39,6 +39,6 @@ $_['error_install']                 = 'Cảnh báo: Thư mục install vẫn cò
 $_['error_image']                   = 'Cảnh báo: Thư mục hình ảnh %s không ghi được!';
 $_['error_image_cache']             = 'Cảnh báo: Cache thư mục hình ảnh  %s không ghi được!';
 $_['error_cache']                   = 'Cảnh báo: Cache thư mục %s không ghi được!';
-$_['error_download']                = 'Cảnh báo: Thư mục tải về %s không ghi được!';
+$_['error_download']                = 'Cảnh báo: Chư mục tải về %s không ghi được!';
 $_['error_logs']                    = 'Cảnh báo: Thư mục đăng nhập %s không ghi được!';
 ?>

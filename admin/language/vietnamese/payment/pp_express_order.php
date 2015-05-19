@@ -13,7 +13,6 @@ $_['text_confirm_void']         = 'If you void you cannot capture any further fu
 $_['text_view']                 = 'View';
 $_['text_refund']               = 'Refund';
 $_['text_resend']               = 'Resend';
-$_['success_transaction_resent']	= 'Transaction was successfully resent';
 
 //Table columns
 $_['column_trans_id']           = 'Transaction ID';
@@ -21,14 +20,10 @@ $_['column_amount']             = 'Amount';
 $_['column_type']               = 'Payment type';
 $_['column_status']             = 'Status';
 $_['column_pend_reason']        = 'Pending reason';
-$_['column_date_added']				= 'Created';
 $_['column_created']            = 'Created';
 $_['column_action']             = 'Action';
 
 //Buttons
-$_['button_void']					= 'Void';
-$_['button_capture']				= 'Capture';
-
 $_['btn_void']                  = 'Void';
 $_['btn_capture']               = 'Capture';
 

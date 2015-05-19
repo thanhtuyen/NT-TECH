@@ -2,18 +2,7 @@
 $_['heading_title'] = 'Amazon (EU)';
 $_['lang_heading_title'] = 'OpenBay Pro for Amazon EU';
 /* Settings tab */
-// Text
-$_['text_heading_settings'] 		= 'Settings';
-$_['text_openbay']					= 'OpenBay Pro';
-$_['text_dashboard']				= 'Amazon EU Dashboard';
 
-$_['text_heading_account'] 			= 'Change plan';
-$_['text_heading_links'] 			= 'Item links';
-$_['text_heading_register'] 		= 'Register';
-$_['text_heading_bulk_listing'] 	= 'Bulk listing';
-$_['text_heading_stock_updates'] 	= 'Stock updates';
-$_['text_heading_saved_listings'] 	= 'Saved listings';
-$_['text_heading_bulk_linking'] 	= 'Bulk linking';
 $_['token_text'] = 'Token:';
 $_['enc_string1_text'] = 'Encryption String 1:';
 $_['enc_string2_text'] = 'Encryption String 2:';

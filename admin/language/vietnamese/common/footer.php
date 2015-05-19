@@ -1,4 +1,4 @@
 <?php
 // Text
-$_['text_footer'] = 'Cổng thương mại điện tử Online của công ty Vshop  Skype: ccie_helper / Yahoo:ccie_helper';
-$_['text_version'] 	= 'Phiên bản 1.0';
+$_['text_footer'] = 'TSvietnam JSC hân hạnh được cung cấp phiên bản tiếng việt cho các bạn.<br />Tác giả: Phan Trường Bách - Phone: 0912699023 / 04 39940478';
+?>

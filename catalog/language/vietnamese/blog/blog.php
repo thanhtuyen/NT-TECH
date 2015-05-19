@@ -1,53 +1,53 @@
 <?php
 // Text
-$_['text_home']            = 'Trang chủ';
-$_['text_blog']            = 'Tin tức';
-$_['text_error_art']       = 'Không có bài viết nào!';
-$_['text_error_cat']       = 'Không tìm thấy danh mục tin!';
+$_['text_home']            = 'Home';
+$_['text_blog']            = 'Blog';
+$_['text_error_art']       = 'Blog article is empty!';
+$_['text_error_cat']       = 'Blog category not found!';
 
 
 // Article & Category Info
-$_['text_subcategory']     = 'Danh mục con';
+$_['text_subcategory']     = 'Sub-Category';
 $_['text_art_infoName']    = 'Posted by <span itemprop="author">%s</span>';
 $_['text_art_infoCategory']= ' in <span itemprop="articleSection">%s</span>';
 $_['text_art_InfoDate']    = ' on <span itemprop="dateCreated">%s</span>';
-$_['text_update']          = 'Cập nhật gần đây nhất: ';
+$_['text_update']          = 'Last update: ';
 $_['text_tags']            = 'Tags: ';
-$_['text_related']         = 'Bài viết liên quan: ';
-$_['text_related_product'] = 'Sản phẩm liên quan: ';
-$_['text_related_article'] = 'Bài viết liên quan đến sản phẩm';
+$_['text_related']         = 'Related Posts: ';
+$_['text_related_product'] = 'Related Products: ';
+$_['text_related_article'] = 'Related Article ';
 
 // Comment
-$_['text_comments']        = '%s Ý kiến';
-$_['text_replies']         = '(%s Trả lời)';
-$_['text_comment']         = 'Ý kiến';
-$_['text_no_comment']      = 'Không có ý kiến nào';
-$_['text_postComment']     = 'Đưa một ý kiến';
-$_['text_postReply']       = 'Trả lời ý kiến';
+$_['text_comments']        = '%s Comments';
+$_['text_replies']         = '(%s Replies)';
+$_['text_comment']         = 'Comments';
+$_['text_no_comment']      = 'No Comments';
+$_['text_postComment']     = 'Leave a Comment';
+$_['text_postReply']       = 'Leave a Reply';
 $_['text_no_comments']     = 'No comment yet, be the first to comment!';
-$_['text_note_publish']    = '(Chưa được quảng bá ra)';
+$_['text_note_publish']    = '(Not Published)';
 $_['text_note_website']    = '(Site url with http://)';
-$_['text_wait']            = 'Hãy đợi chút!';
-$_['button_submit']        = 'Gửi đi';
-$_['text_success']         = 'Cám ơn ý kiến của bạn.';
-$_['text_approval']        = 'Ý kiến của bạn đã được gửi đến ban quản trị để được xét duyệt.';
-$_['text_reply']           = 'Trả lời';
-$_['text_cancel_reply']    = 'Hủy trả lời';
+$_['text_wait']            = 'Please wait!';
+$_['button_submit']        = 'Submit';
+$_['text_success']         = 'Thank you for your comment.';
+$_['text_approval']        = 'Your comment successfully submitted for approval.';
+$_['text_reply']           = 'Reply';
+$_['text_cancel_reply']    = 'Cancel Reply';
 
 // Comment Entry
-$_['entry_name']           = 'Họ và tên: ';
+$_['entry_name']           = 'Name: ';
 $_['entry_email']          = 'E-mail: ';
 $_['entry_site']           = 'Website: ';
-$_['entry_comment']        = 'Ý kiến: ';
-$_['entry_captcha']        = 'Mã bảo mật: ';
+$_['entry_comment']        = 'Comment: ';
+$_['entry_captcha']        = 'Verification code: ';
 $_['text_login_comment']   = 'Attention: You need to <a href="%s">logged in</a> to comment!';
 
 //Mail Notification
-$_['text_mail_subject']    = '[%s] Đăng ý kiến mới cho bài viết: "%s"';
+$_['text_mail_subject']    = '[%s] New Comment on Article: "%s"';
 $_['text_mail_greeting']   = 'New comments have been posted on <a href="%s" target="_blank" title="%s">%s</a> article.<br /><br />';
-$_['text_mail_article']    = '<b>Bài viết:</b>';
+$_['text_mail_article']    = '<b>Article:</b>';
 $_['text_mail_article1']   = '<a href="%s" target="_blank" title="%s">%s</a>';
-$_['text_mail_name']       = '<b>Tác giả:</b>';
+$_['text_mail_name']       = '<b>Author:</b>';
 $_['text_mail_mail']       = '<b>E-mail:</b>';
 $_['text_mail_mail1']      = '<a href="mailto:%s">%s</a>';
 $_['text_mail_url']        = '<b>Url:</b>';

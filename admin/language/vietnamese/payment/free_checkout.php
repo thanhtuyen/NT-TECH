@@ -5,7 +5,6 @@ $_['heading_title']      = 'Miễn phí thanh toán';
 // Text
 $_['text_payment']       = 'Thanh Toán';
 $_['text_success']       = 'Thành Công: Bạn đã thay đổi phương thức Miễn phí thanh toán!';
-$_['text_edit']          = 'Chỉnh sửa Free Checkout';
 
 // Entry
 $_['entry_order_status'] = 'Trạng thái đơn hàng:';

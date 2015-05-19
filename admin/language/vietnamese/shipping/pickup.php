@@ -5,7 +5,6 @@ $_['heading_title']    = 'Pickup From Store';
 // Text 
 $_['text_shipping']    = 'Shipping';
 $_['text_success']     = 'Thành Công: Bạn đã thay đổi pickup from store!';
-$_['text_edit']        = 'Chỉnh sửa Pickup từ Store Shipping';
 
 // Entry
 $_['entry_geo_zone']   = 'Vùng tính thuế';

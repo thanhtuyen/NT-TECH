@@ -16,15 +16,6 @@ $_['tbl_column_fee']                    = 'Fee';
 $_['tbl_column_netamt']                 = 'Net Amount';
 $_['tbl_column_action']                 = 'Action';
 
-// Text
-$_['text_pp_express']				= 'PayPal Express Checkout';
-$_['text_date_search']				= 'Search by date';
-$_['text_searching']				= 'Searching';
-$_['text_name']						= 'Name';
-$_['text_buyer_info']				= 'Buyer information';
-$_['text_view']						= 'View';
-$_['text_format']					= 'Format';
-
 //Button
 $_['btn_search']                        = 'Search';
 $_['btn_edit_search']                   = 'Edit search';
@@ -72,19 +63,12 @@ $_['entry_transaction_id']              = 'Transaction ID';
 $_['entry_invoice_no']                  = 'Invoice number';
 $_['entry_auction']                     = 'Auction item number';
 $_['entry_amount']                      = 'Amount';
-$_['entry_recurring_id']			= 'Recurring Profile ID';
 $_['entry_profile_id']                  = 'Profile ID';
 $_['entry_salutation']                  = 'Salutation';
 $_['entry_firstname']                   = 'First';
 $_['entry_middlename']                  = 'Middle';
 $_['entry_lastname']                    = 'Last';
 $_['entry_suffix']                      = 'Suffix';
-$_['entry_status_all']				= 'All';
-$_['entry_status_pending']			= 'Pending';
-$_['entry_status_processing']		= 'Processing';
-$_['entry_status_success']			= 'Success';
-$_['entry_status_denied']			= 'Denied';
-$_['entry_status_reversed']			= 'Reversed';
 
 //Text
 $_['text_searching']                    = 'Searching';

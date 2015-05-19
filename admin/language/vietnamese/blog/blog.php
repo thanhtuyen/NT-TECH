@@ -13,11 +13,10 @@ $_['text_menu_about']      = 'About';
 
 $_['text_publish']         = 'Publish';
 $_['text_draft']           = 'Draft';
-$_['text_inherit']         = '--- Inherit ---';
+$_['text_inherit']         = 'Inherit';
 $_['text_show']            = 'Show';
 $_['text_hide']            = 'Hide';
 $_['text_link']            = '<a href="http://%s" target="_blank" title="%s">%s</a>';
-$_['text_link_https']      = '<a href="https://%s" target="_blank" title="%s">%s</a>';
 
 //== Dashboard
 $_['text_welcome']         = 'Welcome to Blog Manager';
@@ -39,7 +38,7 @@ $_['text_res_author1']     = 'Author';
 $_['text_res_author2']     = '%s user';
 
 //== App Info
-$_['product_version']      = '1.3.4';
+$_['product_version']      = '1.3.3';
 $_['text_updateNotify']    = 'Update available!';
 $_['text_noupdate']        = 'Blog Manager is up to date!';
 $_['text_update']          = 'New update available!';
@@ -50,7 +49,7 @@ $_['text_failupdate']      = 'Unable connect to update server!';
 $_['dev_name']             = 'EchoThemes';
 $_['dev_url']              = 'www.echothemes.com';
 $_['dev_url_docs']         = 'www.echothemes.com/docs-blog-manager.html';
-$_['dev_url_support']      = 'www.echothemes.com/tickets.html';
+$_['dev_url_support']      = 'https://www.echothemes.com/tickets.html';
 $_['dev_copyright']        = '%s &copy; %s %s. All right reserved.<br/>';
 $_['oc_footer']            = '<a href="http://www.opencart.com">OpenCart</a> &copy; 2009-' . date('Y') . ' All Rights Reserved.<br />Version %s';
 

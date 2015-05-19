@@ -20,11 +20,9 @@ $_['column_action']           = 'Action';
 
 // Entry
 $_['entry_name']              = 'Category Name:';
+$_['entry_meta_keyword']      = 'Meta Tag Keywords:';
+$_['entry_meta_description']  = 'Meta Tag Description:';
 $_['entry_description']       = 'Description:';
-$_['entry_blog_seo']				= 'Search Engine Optimization';
-$_['entry_blog_seo_title']		= 'Title:';
-$_['entry_blog_seo_desc']	   = 'Description:';
-$_['entry_blog_seo_keyword']	= 'Keyword:';
 $_['entry_status']            = 'Status:';
 $_['entry_parent']				= 'Parent Category:';
 $_['entry_keyword']           = 'SEO Keyword:<span class="help">This must be globally unique.</span>';
@@ -37,11 +35,6 @@ $_['entry_sort_order']        = 'Sort Order:';
 $_['entry_class_suffix']      = 'Class Suffix:';
 $_['entry_category_col']      = 'Category Column:';
 $_['entry_layout']            = 'Layout Override:';
-$_['entry_template']				= 'Specific Template:';
-$_['entry_blog_seo_title_help']	   = '<span class="help help-inline">characters. Most search engine use a maximum of 60 chars for the title.</span>';
-$_['entry_blog_seo_desc_help']	   = '<span class="help help-inline">characters. Most search engine use a maximum of 160 chars for the description.</span>';
-$_['entry_blog_seo_keyword_help']	= '<span class="help" style="float:none">Comma separated list of your site keywords.</span>';
-
 
 $_['entry_order_asc']         = 'Sort Order (Asc)';
 $_['entry_order_desc']        = 'Sort Order (Desc)';

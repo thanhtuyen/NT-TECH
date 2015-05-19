@@ -11,8 +11,6 @@ $_['text_year']           = 'Year';
 $_['text_month']          = 'Month';
 $_['text_day']            = 'Day';
 $_['text_comment']        = "Klarna's Invoice ID: %s\n%s/%s: %.4f";
-$_['text_terms_fee']			= '<span id="klarna_invoice_toc"></span> (+%s)<script type="text/javascript">var terms = new Klarna.Terms.Invoice({el: \'klarna_invoice_toc\', eid: \'%s\', country: \'%s\', charge: %s});</script>';
-$_['text_terms_no_fee']			= '<span id="klarna_invoice_toc"></span><script type="text/javascript">var terms = new Klarna.Terms.Invoice({el: \'klarna_invoice_toc\', eid: \'%s\', country: \'%s\'});</script>';
 
 // Entry
 $_['entry_gender']         = 'Gender:';
@@ -23,13 +21,6 @@ $_['entry_street']         = 'Street:<br /><span class="help">Please note that d
 $_['entry_house_no']       = 'House No.:<br /><span class="help">Please enter your house number.</span>';
 $_['entry_house_ext']      = 'House Ext.:<br /><span class="help">Please submit your house extension here. E.g. A, B, C, Red, Blue ect.</span>';
 $_['entry_company']        = 'Company Registration Number:<br /><span class="help">Please enter your Company\'s registration number</span>';
-// Help
-$_['help_pno']					= 'Please enter your Social Security number here.';
-$_['help_phone_no']				= 'Please enter your phone number.';
-$_['help_street']				= 'Please note that delivery can only take place to the registered address when paying with Klarna.';
-$_['help_house_no']				= 'Please enter your house number.';
-$_['help_house_ext']			= 'Please submit your house extension here. E.g. A, B, C, Red, Blue ect.';
-$_['help_company']				= 'Please enter your Company\'s registration number';
 
 // Error
 $_['error_deu_terms']     = 'You must agree to Klarna\'s privacy policy (Datenschutz)';

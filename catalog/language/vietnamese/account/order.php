@@ -28,11 +28,8 @@ $_['text_reorder']          = 'Thêm vào giỏ';
 $_['text_return']           = 'Trở về mục sản phẩm';
 
 // Column
-$_['column_order_id']       = 'Mã ID đơn hàng';
-$_['column_product']        = 'Số Sản phẩm';
-$_['column_customer']       = 'Khách hàng';
 $_['column_name']           = 'Tên sản phẩm';
-$_['column_model']          = 'Mã hàng';
+$_['column_model']          = 'Kiểu';
 $_['column_quantity']       = 'Số lượng';
 $_['column_price']          = 'Đơn Giá';
 $_['column_total']          = 'Tổng Cộng';
@@ -43,5 +40,4 @@ $_['column_comment']        = 'Ghi chú';
 
 // Error
 $_['error_warning']         = 'Cảnh báo: Bạn phải chọn một vài sản phẩm và thực hiện thành công thao tác!';
-$_['error_reorder']         = '%s is not currently available to be reordered.';
 ?>

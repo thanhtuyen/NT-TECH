@@ -16,8 +16,6 @@ $_['entry_full_refund']         = 'Full refund';
 $_['entry_amount']              = 'Amount';
 $_['entry_message']             = 'Message';
 
-// Button
-$_['button_refund']					= 'Issue refund';
 //Error
 $_['error_partial_amt']         = 'You must enter a partial refund amount';
 $_['error_data']                = 'Data missing from request';

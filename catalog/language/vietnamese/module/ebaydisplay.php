@@ -1,2 +1,2 @@
 <?php
-$_['heading_title']     = 'Gian hàng eBay của chúng tôi';
+$_['heading_title']     = 'On our eBay store';

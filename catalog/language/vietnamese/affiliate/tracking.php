@@ -8,12 +8,4 @@ $_['text_description'] = 'Để đảm bảo bạn được thanh toán khi gi�
 $_['text_code']        = '<b>Mã theo dõi:</b>';
 $_['text_generator']   = '<b>Tạo liên kết theo dõi</b><br />Nhập vào tên sản phẩm bạn muốn liên kết đến:';
 $_['text_link']        = '<b>Liên Kết Theo Dõi:</b>';
-
-// Entry
-$_['entry_code']       = 'Your Tracking Code';
-$_['entry_generator']  = 'Tracking Link Generator';
-$_['entry_link']       = 'Tracking Link';
-
-// Help
-$_['help_generator']  = 'Type in the name of a product you would like to link to';
 ?>

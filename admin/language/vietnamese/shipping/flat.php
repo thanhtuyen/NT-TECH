@@ -5,7 +5,6 @@ $_['heading_title']    = 'Tỷ lệ cố định';
 // Text
 $_['text_shipping']    = 'Shipping';
 $_['text_success']     = 'Thành Công: Bạn đã thay đổi flat rate shipping!';
-$_['text_edit']        = 'Edit Flat Rate Shipping';
 
 // Entry
 $_['entry_cost']       = 'Chi phí:';

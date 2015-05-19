@@ -18,6 +18,4 @@ $_['entry_password']                = 'Mật Khẩu:';
 
 // Error
 $_['error_login']                   = 'Lỗi: Email hoặc Mật Khẩu không chính xác.';
-$_['error_attempts']                = 'Warning: Your account has exceeded allowed number of login attempts. Please try again in 1 hour.';
-$_['error_approved']                = 'Warning: Your account requires approval before you can login.';
 ?>

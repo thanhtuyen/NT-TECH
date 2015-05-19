@@ -4,16 +4,12 @@ $_['heading_title']      = 'Liên hệ với chúng tôi';
 
 // Text 
 $_['text_location']      = 'Thông tin của chúng tôi';
-$_['text_store']     = 'Gian hàng của chúng tôi';
 $_['text_contact']       = 'Thông tin liên hệ';
 $_['text_address']       = 'Địa chỉ:';
 $_['text_email']         = 'E-Mail:';
 $_['text_telephone']     = 'Điện thoại:';
 $_['text_fax']           = 'Fax:';
 $_['text_message']       = '<p>Cảm ơn bạn. Thư liên hệ của bạn đã được gửi đến chúng tôi!</p>';
-$_['text_open']      = 'Giờ mở cửa';
-$_['text_comment']   = 'Ý kiến đóng góp';
-$_['text_success']   = '<p>Your enquiry has been successfully sent to the store owner!</p>';
 
 // Entry Fields
 $_['entry_name']         = 'Họ:';

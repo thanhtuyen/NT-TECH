@@ -1,6 +1,6 @@
 <?php
 // Heading 
-$_['heading_title']      = 'Thông tin tài khoản';
+$_['heading_title']      = 'Tài khoản của tôi';
 
 // Text
 $_['text_account']       = 'Tại khoản';
@@ -15,7 +15,7 @@ $_['text_order']         = 'Xem lịch sử đơn hàng';
 $_['text_download']      = 'Tải về';
 $_['text_reward']        = 'Điểm Thưởng'; 
 $_['text_return']        = 'Yêu cầu trả hàng';
-$_['text_recurring']     = 'Thanh toán Định kỳ'; 
+$_['text_recurring']     = 'Recurring payments'; 
 $_['text_transaction']   = 'Giao dịch của bạn'; 
 $_['text_transactions']  = 'Các giao dịch'; 
 $_['text_newsletter']    = 'Đăng kí / hủy đăng kí thông báo';
