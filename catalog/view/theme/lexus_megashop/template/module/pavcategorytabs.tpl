@@ -6,12 +6,35 @@
  * @copyright	Copyright (C) Feb 2012 PavoThemes.com <@emai:pavothemes@gmail.com>.All rights reserved.
  * @license		GNU General Public License version 2
 *******************************************************/
-
 $cols = 4;
 $span = 12/$cols;
+$active = 'latest';
+$id = rand(1,9)+substr(md5($category_name),0,3);
+
+$categoryConfig = array(
+'category_pzoom'				          => 1,
+);
+$categoryPzoom 	    = $categoryConfig['category_pzoom'];
+
 $id = rand(1,9)+rand();
 $tabdefault = str_replace(' ', '', key($tabs).$id);
 ?>
+<div class="<?php echo $prefix;?> box productcarousel">
+    <div class="box-heading"><span><img src="<?php echo $image;?>"><?php echo $category_name;?></span></div>
+    <div class="box-content">
+        <div class="box-products slide" id="productcarousel<?php echo $id;?>">
+            <?php if( trim($message) ) { ?>
+            <div class="module-desc wrapper"><?php echo $message;?></div>
+            <?php } ?>
+            <?php if( count($products) > $itemsperpage ) { ?>
+            <div class="carousel-controls">
+                <a class="carousel-control left fa fa-angle-left" href="#productcarousel<?php echo $id;?>"   data-slide="prev"></a>
+                <a class="carousel-control right fa fa-angle-right" href="#productcarousel<?php echo $id;?>"  data-slide="next"></a>
+            </div>
+            <?php } ?>
+        </div>
+    </div>
+</div>
 <div class="box box-product featured">
 	<?php if( !empty($module_description) ) { ?>
 	<div class="module-desc">

@@ -50,8 +50,12 @@ class ControllerModulePavcategorytabs extends Controller {
 		
 		$this->data['flag'] = $flag;
 		$this->data['tabs'] = $tabs;
-		
-		
+
+        if( isset($setting['description'][$this->config->get('config_language_id')]) ) {
+            $this->data['message'] = html_entity_decode($setting['description'][$this->config->get('config_language_id')], ENT_QUOTES, 'UTF-8');
+        }else {
+            $this->data['message'] = '';
+        }
 		$this->data['module_description'] = isset($setting['description'][$this->config->get('config_language_id')])?$setting['description'][$this->config->get('config_language_id')]:"";
 		$this->data['module_description'] = (html_entity_decode($this->data['module_description'], ENT_QUOTES, 'UTF-8'));
 		$this->data['module'] = $module++;
