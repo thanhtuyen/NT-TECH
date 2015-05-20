@@ -1,6 +1,6 @@
 <?php
 // Heading
-$_['heading_title']       = 'Pav QuickView Product';
+$_['heading_title']       = 'Popup Review sản phẩm';
 
 // Text
 $_['text_module']         = 'Modules';

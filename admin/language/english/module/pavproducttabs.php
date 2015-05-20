@@ -1,6 +1,6 @@
 <?php
 // Heading
-$_['heading_title']       = 'Pav Product Tabs';
+$_['heading_title']       = 'Sản phẩm trong menu Tab';
 
 // Text
 $_['text_module']         = 'Modules';

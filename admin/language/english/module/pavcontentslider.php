@@ -1,6 +1,6 @@
 <?php
 // Heading
-$_['heading_title']       = 'Pav Content Slider';
+$_['heading_title']       = 'Slide Sự kiện đặc biệt';
 
 // Text
 $_['text_module']         = 'Modules';

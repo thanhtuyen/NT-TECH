@@ -61,7 +61,7 @@
                 <span class="error"><?php echo $error_model; ?></span>
                 <?php } ?></td>
             </tr>
-            <tr>
+            <!--<tr>
               <td><?php echo $entry_sku; ?></td>
               <td><input type="text" name="sku" value="<?php echo $sku; ?>" /></td>
             </tr>
@@ -84,7 +84,7 @@
             <tr>
               <td><?php echo $entry_mpn; ?></td>
               <td><input type="text" name="mpn" value="<?php echo $mpn; ?>" /></td>
-            </tr>
+            </tr>-->
             <tr>
               <td><?php echo $entry_location; ?></td>
               <td><input type="text" name="location" value="<?php echo $location; ?>" /></td>
@@ -184,7 +184,7 @@
                   <?php } ?>
                 </select></td>
             </tr>
-            <tr>
+            <!--<tr>
               <td><?php echo $entry_weight; ?></td>
               <td><input type="text" name="weight" value="<?php echo $weight; ?>" /></td>
             </tr>
@@ -199,7 +199,7 @@
                   <?php } ?>
                   <?php } ?>
                 </select></td>
-            </tr>
+            </tr>-->
             <tr>
               <td><?php echo $entry_status; ?></td>
               <td><select name="status">

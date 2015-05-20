@@ -8,7 +8,7 @@
 *******************************************************/
 
 // Heading
-$_['heading_title']       = '<b>Pav Vertical MegaMenu</b>';
+$_['heading_title']       = '<b>Main Menu Top</b>';
 
 // Text
 $_['text_treemenu']     = 'Tree Verticalmenu Management';

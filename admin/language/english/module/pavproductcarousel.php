@@ -1,6 +1,6 @@
 <?php
 // Heading
-$_['heading_title']       = 'Pav Product Carousel';
+$_['heading_title']       = 'Các thể loại sản phẩm';
 
 // Text
 $_['text_module']         = 'Modules';
