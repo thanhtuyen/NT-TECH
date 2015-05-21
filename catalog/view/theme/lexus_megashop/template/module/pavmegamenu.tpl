@@ -6,7 +6,7 @@
 		        <span class="fa fa-bars"></span>		        
 		     </a>
 			<div class="collapse navbar-collapse navbar-ex1-collapse">
-			<?php echo $treemenu; ?>
+			<!--<?php echo $treemenu; ?>-->
 			 </div></div>
 		</div>
 	</div>

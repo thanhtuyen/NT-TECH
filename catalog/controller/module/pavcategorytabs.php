@@ -16,11 +16,13 @@ class ControllerModulePavcategorytabs extends Controller {
 		$this->language->load('module/pavcategorytabs');
 		
 		$this->data['button_cart'] = $this->language->get('button_cart');
-		if (file_exists('catalog/view/theme/' . $this->config->get('config_template') . '/stylesheet/pavcategorytabs.css')) {
-			$this->document->addStyle('catalog/view/theme/' . $this->config->get('config_template') . '/stylesheet/pavcategorytabs.css');
+		if (file_exists('catalog/view/theme/' . $this->config->get('config_template') . '/stylesheet/pavproductcarousel.css')) {
+			$this->document->addStyle('catalog/view/theme/' . $this->config->get('config_template') . '/stylesheet/pavproductcarousel.css');
 		} else {
-			$this->document->addStyle('catalog/view/theme/default/stylesheet/pavcategorytabs.css');
+			$this->document->addStyle('catalog/view/theme/default/stylesheet/pavproductcarousel.css');
 		}
+        $this->document->addStyle('catalog/view/javascript/jquery/colorbox/colorbox.css');
+        $this->document->addScript('catalog/view/javascript/jquery/colorbox/jquery.colorbox-min.js');
 		//echo "<pre>"; print_r($setting); die;
 		
 		$this->data['width'] = $setting['width'];
@@ -38,7 +40,7 @@ class ControllerModulePavcategorytabs extends Controller {
 		$category = $this->model_catalog_category->getCategory($category_id);
 		$sub_categories = $this->model_catalog_category->getCategories($category_id);
 		$this->data['category_name'] = $category['name'];
-		
+
 		$flag = 0;
 		if(empty($sub_categories)) {
 			$tabs = $this->_getCategory($category, $setting);
@@ -47,7 +49,7 @@ class ControllerModulePavcategorytabs extends Controller {
 			$tabs = $this->_getCategoryTabs($sub_categories, $setting);
 			$flag = 0;
 		}
-		
+
 		$this->data['flag'] = $flag;
 		$this->data['tabs'] = $tabs;
 
