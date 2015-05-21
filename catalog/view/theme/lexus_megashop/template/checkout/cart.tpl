@@ -124,7 +124,7 @@
 			
 			
 			<?php if ($coupon_status || $voucher_status || $reward_status || $shipping_status) { ?>
-				<h2><?php echo $text_next; ?></h2>
+				<!--<h2><?php echo $text_next; ?></h2>
 				<div class="content">
 					<p><?php echo $text_next_choice; ?></p>
 					<table class="radio table-hover">
@@ -190,7 +190,7 @@
 						</tr>
 					<?php } ?>
 				</table>
-			</div>
+			</div>-->
 			
 			
 			<div class="cart-module">
