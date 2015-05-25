@@ -18,7 +18,7 @@ class ModelCatalogProduct extends Model {
                     $this->db->query("INSERT INTO " . DB_PREFIX . "product_to_store SET product_id = '" . (int)$product_id . "', store_id = '" . (int)$store_id . "'");
                 }
             }
-            print_r($data['product_attributes']);die;
+           // print_r($data['product_attributes']);die;
             if (isset($data['product_attributes'])) {
                 foreach ($data['product_attributes'] as $product_attribute) {
                     if ($product_attribute['attribute_id']) {
