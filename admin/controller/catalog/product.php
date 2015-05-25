@@ -65,6 +65,7 @@ class ControllerCatalogProduct extends Controller {
   	}
 
   	public function update() {
+
     	$this->language->load('catalog/product');
 
     	$this->document->setTitle($this->language->get('heading_title'));
@@ -1098,8 +1099,8 @@ class ControllerCatalogProduct extends Controller {
 					'product_attribute_description' => $product_attribute['product_attribute_description']
 				);
 			}
-		}		
-		
+		}
+        print_r($this->data['product_attributes']);
 		// Options
 		$this->load->model('catalog/option');
 		
