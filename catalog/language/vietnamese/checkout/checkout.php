@@ -49,12 +49,12 @@ $_['entry_lastname']                 = 'Họ và tên lót:';
 $_['entry_telephone']                = 'Điện thoại:';
 $_['entry_fax']                      = 'Fax:';
 $_['entry_company']                  = 'Công ty:';
-$_['entry_address_1']                = 'Địa chỉ dòng 1:';
+$_['entry_address_1']                = 'Địa chỉ:';
 $_['entry_address_2']                = 'Địa chỉ dòng 2:';
 $_['entry_postcode']                 = 'Mã Bưu Điện:';
 $_['entry_city']                     = 'Thành Phố:';
 $_['entry_country']                  = 'Quốc Gia:';
-$_['entry_zone']                     = 'Vùng / Tiểu Bang:';
+$_['entry_zone']                     = 'Tỉnh/thành phố';
 $_['entry_newsletter']               = 'Tôi muốn đăng kí nhận bản tin %s .';
 $_['entry_shipping'] 	             = 'Địa chỉ nhận hàng và địa chỉ thanh toán của tôi giống nhau.';
 

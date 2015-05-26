@@ -357,7 +357,7 @@
 			<div class="share">
 				<!-- AddThis Button BEGIN -->
 				<div class="addthis_default_style"><a class="addthis_button_compact"><?php echo $text_share; ?></a> <a class="addthis_button_email"></a><a class="addthis_button_print"></a> <a class="addthis_button_facebook"></a> <a class="addthis_button_twitter"></a></div>
-				<script type="text/javascript" src="//s7.addthis.com/js/250/addthis_widget.js"></script> 
+				<script type="text/javascript" src="//s7.addthis.com/js/250/addthis_widget.js"></script>
 				<!-- AddThis Button END --> 
 			</div>
 		

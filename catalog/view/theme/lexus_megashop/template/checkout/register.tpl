@@ -21,20 +21,21 @@
 		<input type="text" name="fax" value="" class="large-field" />
 		<br />
 		<br />
-		<h2><?php echo $text_your_password; ?></h2>
-		<span class="required">*</span> <?php echo $entry_password; ?><br />
-		<input type="password" name="password" value="" class="large-field" />
-		<br />
-		<br />
-		<span class="required">*</span> <?php echo $entry_confirm; ?> <br />
-		<input type="password" name="confirm" value="" class="large-field" />
-		<br />
-		<br />
-		<br />
+
 	</div>
 
 
 	<div class="col-lg-6 col-sm-6 col-xs-12">
+        <h2><?php echo $text_your_password; ?></h2>
+        <span class="required">*</span> <?php echo $entry_password; ?><br />
+        <input type="password" name="password" value="" class="large-field" />
+        <br />
+        <br />
+        <span class="required">*</span> <?php echo $entry_confirm; ?> <br />
+        <input type="password" name="confirm" value="" class="large-field" />
+        <br />
+        <br />
+        <br />
 		<h2><?php echo $text_your_address; ?></h2>
 		<?php echo $entry_company; ?><br />
 		<input type="text" name="company" value="" class="large-field" />
@@ -61,7 +62,7 @@
 			<br />
 			<br />
 		</div>
-		
+
 		<div id="tax-id-display"><span id="tax-id-required" class="required">*</span> <?php echo $entry_tax_id; ?><br />
 			<input type="text" name="tax_id" value="" class="large-field" />
 			<br />
@@ -71,7 +72,7 @@
 		<input type="text" name="address_1" value="" class="large-field" />
 		<br />
 		<br />
-		<?php echo $entry_address_2; ?><br />
+		<!<?php echo $entry_address_2; ?><br />
 		<input type="text" name="address_2" value="" class="large-field" />
 		<br />
 		<br />
@@ -101,17 +102,17 @@
 		<br />
 		<br />
 		<br />
-	</div>	
-</div>	
+	</div>
+</div>
 
-	
-<div class="checkbox" style="clear: both; padding-top: 15px; border-top: 1px solid #e2e2e2;">	
+
+<div class="checkbox" style="clear: both; padding-top: 15px; border-top: 1px solid #e2e2e2;">
 	<label for="newsletter">
 		<?php echo $entry_newsletter; ?>
 		<input type="checkbox" name="newsletter" value="1" id="newsletter" />
 	</label>
 	<br />
-	<?php if ($shipping_required) { ?>	
+	<?php if ($shipping_required) { ?>
 	<label for="shipping">
 		<?php echo $entry_shipping; ?>
 		<input type="checkbox" name="shipping_address" value="1" id="shipping" checked="checked" />
@@ -143,14 +144,14 @@
 <!--
 $('#payment-address input[name=\'customer_group_id\']:checked').live('change', function() {
 	var customer_group = [];
-	
+
 <?php foreach ($customer_groups as $customer_group) { ?>
 	customer_group[<?php echo $customer_group['customer_group_id']; ?>] = [];
 	customer_group[<?php echo $customer_group['customer_group_id']; ?>]['company_id_display'] = '<?php echo $customer_group['company_id_display']; ?>';
 	customer_group[<?php echo $customer_group['customer_group_id']; ?>]['company_id_required'] = '<?php echo $customer_group['company_id_required']; ?>';
 	customer_group[<?php echo $customer_group['customer_group_id']; ?>]['tax_id_display'] = '<?php echo $customer_group['tax_id_display']; ?>';
 	customer_group[<?php echo $customer_group['customer_group_id']; ?>]['tax_id_required'] = '<?php echo $customer_group['tax_id_required']; ?>';
-<?php } ?>	
+<?php } ?>
 
 	if (customer_group[this.value]) {
 		if (customer_group[this.value]['company_id_display'] == '1') {
@@ -158,24 +159,24 @@ $('#payment-address input[name=\'customer_group_id\']:checked').live('change', f
 		} else {
 			$('#company-id-display').hide();
 		}
-		
+
 		if (customer_group[this.value]['company_id_required'] == '1') {
 			$('#company-id-required').show();
 		} else {
 			$('#company-id-required').hide();
 		}
-		
+
 		if (customer_group[this.value]['tax_id_display'] == '1') {
 			$('#tax-id-display').show();
 		} else {
 			$('#tax-id-display').hide();
 		}
-		
+
 		if (customer_group[this.value]['tax_id_required'] == '1') {
 			$('#tax-id-required').show();
 		} else {
 			$('#tax-id-required').hide();
-		}	
+		}
 	}
 });
 

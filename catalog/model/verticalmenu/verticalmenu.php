@@ -108,8 +108,8 @@ class ModelVerticalmenuVerticalmenu extends Model {
 
 				if( $this->hasChild($menu['verticalmenu_id']) || $menu['type_submenu'] == 'html'){
 					$output .= '<li class="parent dropdown '.$menu['menu_class'].'" '.$this->renderAttrs($menu).'>
-					<a class="dropdown-toggle" data-toggle="dropdown" href="'.$this->getLink( $menu ).'">';
-					
+					<a href="'.$this->getLink( $menu ).'">';
+
 					if( $menu['image']){ $output .= '<span class="menu-icon" style="background:url(\''.$this->shopUrl."image/".$menu['image'].'\') no-repeat;">';	}
 					
 					$output .= '<span class="menu-title">'.$menu['title']."</span>";

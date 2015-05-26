@@ -123,28 +123,42 @@
 					  <li><a href="<?php echo $return; ?>"><?php echo $text_return; ?></a></li>
 					  <li><a href="<?php echo $sitemap; ?>"><?php echo $text_sitemap; ?></a></li>
 					   <li><a href="<?php echo $manufacturer; ?>"><?php echo $text_manufacturer; ?></a></li>
-					  <li><a href="<?php echo $voucher; ?>"><?php echo $text_voucher; ?></a></li>
-					</ul>
-				</div>	
-			</div>
+                        <!--<li><a href="<?php echo $voucher; ?>"><?php echo $text_voucher; ?></a></li>-->
+                      </ul>
+                  </div>
+              </div>
+          </div>
+
+        <div class="column col-xs-12 col-sm-6 col-lg-2">
+            <div class="box extra">
+                <div class="box-heading"><span><?php echo $text_extra; ?></span></div>
+                <div class="box-content">
+                  <ul class="list">
+                    <li><a href="<?php echo $manufacturer; ?>"><?php echo $text_manufacturer; ?></a></li>
+                    <!--<li><a href="<?php echo $voucher; ?>"><?php echo $text_voucher; ?></a></li>
+				    <li><a href="<?php echo $affiliate; ?>"><?php echo $text_affiliate; ?></a></li>-->
+				    <li><a href="<?php echo $special; ?>"><?php echo $text_special; ?></a></li>
+				    </ul>
+			    </div>
+		    </div>
 		</div>
-		  
-		<div class="column col-xs-12 col-sm-6 col-lg-2">
-			<div class="box extra">
-			<div class="box-heading"><span><?php echo $text_extra; ?></span></div>
-			<div class="box-content">
-				<ul class="list">
-				  <li><a href="<?php echo $manufacturer; ?>"><?php echo $text_manufacturer; ?></a></li>
-				  <li><a href="<?php echo $voucher; ?>"><?php echo $text_voucher; ?></a></li>
-				  <li><a href="<?php echo $affiliate; ?>"><?php echo $text_affiliate; ?></a></li>
-				  <li><a href="<?php echo $special; ?>"><?php echo $text_special; ?></a></li>
-				</ul>
-			</div>			
-		  </div>
-		</div>
-		  
-		
-		<?php /*
+
+        <div class="column col-xs-12 col-sm-6 col-lg-2">
+            <div class="box extra">
+                <div class="box-heading"><span>THÔNG TIN LIÊN HỆ</span></div>
+                <div class="box-content">
+                    <ul class="list">
+                        Văn phòng: Địa chỉ </br>
+                        Giao hàng trên phạm vi Toàn Quốc</br>
+                        Địa chỉ Xem bản đồ     (08) 6290 8163</br>
+
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+
+                <?php /*
 		<div class="column col-xs-12 col-sm-6 col-lg-2">
 			<div class="box">
 				<div class="box-heading"><span><?php echo $text_account; ?></span></div>
