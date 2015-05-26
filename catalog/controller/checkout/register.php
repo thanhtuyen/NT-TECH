@@ -181,22 +181,22 @@ class ControllerCheckoutRegister extends Controller {
 			if ((utf8_strlen($this->request->post['city']) < 2) || (utf8_strlen($this->request->post['city']) > 128)) {
 				$json['error']['city'] = $this->language->get('error_city');
 			}
-	
+
 			$this->load->model('localisation/country');
 			
 			$country_info = $this->model_localisation_country->getCountry($this->request->post['country_id']);
-			
+
 			if ($country_info) {
 				if ($country_info['postcode_required'] && (utf8_strlen($this->request->post['postcode']) < 2) || (utf8_strlen($this->request->post['postcode']) > 10)) {
 					$json['error']['postcode'] = $this->language->get('error_postcode');
 				}
-				 
+
 				// VAT Validation
 				$this->load->helper('vat');
-				
+
 				if ($this->config->get('config_vat') && $this->request->post['tax_id'] && (vat_validation($country_info['iso_code_2'], $this->request->post['tax_id']) == 'invalid')) {
 					$json['error']['tax_id'] = $this->language->get('error_vat');
-				}				
+				}
 			}
 	
 			if ($this->request->post['country_id'] == '') {
