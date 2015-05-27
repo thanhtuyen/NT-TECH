@@ -40,7 +40,7 @@ class ControllerModulePavcategorytabs extends Controller {
 		$category = $this->model_catalog_category->getCategory($category_id);
 		$sub_categories = $this->model_catalog_category->getCategories($category_id);
 		$this->data['category_name'] = $category['name'];
-
+        $this->data['link_category'] = $this->url->link('product/category', 'path=' . $category_id );
 		$flag = 0;
 		if(empty($sub_categories)) {
 			$tabs = $this->_getCategory($category, $setting);

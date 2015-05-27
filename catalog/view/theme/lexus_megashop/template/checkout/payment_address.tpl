@@ -34,44 +34,44 @@
 		<tr>
 			<td><input type="text" name="lastname" value="" class="large-field" /></td>
 		</tr>
-		<tr>
-			<td><?php echo $entry_company; ?></td>			
-		</tr>
-		<tr>
-			<td><input type="text" name="company" value="" class="large-field" /></td>
-		</tr>
-		
-		<?php if ($company_id_display) { ?>
-		<tr>
-			<td>
-				<?php if ($company_id_required) { ?>
-				<span class="required">*</span>
-				<?php } ?>
-				<?php echo $entry_company_id; ?>
-			</td>			
-		</tr>
-		<tr>
-			<td>
-				<input type="text" name="company_id" value="" class="large-field" />
-			</td>
-		</tr>
-		<?php } ?>
-		
-		<?php if ($tax_id_display) { ?>
-		<tr>
-			<td>
-				<?php if ($tax_id_required) { ?>
-				<span class="required">*</span>
-				<?php } ?>
-				<?php echo $entry_tax_id; ?>
-			</td>			
-		</tr>
-		<tr>
-			<td>
-				<input type="text" name="tax_id" value="" class="large-field" />
-			</td>
-		</tr>
-		<?php } ?>
+        <!--<tr>
+            <td><?php echo $entry_company; ?></td>
+        </tr>
+        <tr>
+            <td><input type="text" name="company" value="" class="large-field" /></td>
+        </tr>
+
+        <?php if ($company_id_display) { ?>
+        <tr>
+            <td>
+                <?php if ($company_id_required) { ?>
+                <span class="required">*</span>
+                <?php } ?>
+                <?php echo $entry_company_id; ?>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <input type="text" name="company_id" value="" class="large-field" />
+            </td>
+        </tr>
+        <?php } ?>
+
+        <?php if ($tax_id_display) { ?>
+        <tr>
+            <td>
+                <?php if ($tax_id_required) { ?>
+                <span class="required">*</span>
+                <?php } ?>
+                <?php echo $entry_tax_id; ?>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <input type="text" name="tax_id" value="" class="large-field" />
+            </td>
+        </tr>
+        <?php } ?>-->
 		
 		<tr>
 			<td><span class="required">*</span> <?php echo $entry_address_1; ?></td>			
@@ -79,19 +79,19 @@
 		<tr>
 			<td><input type="text" name="address_1" value="" class="large-field" /></td>
 		</tr>
-		<tr>
+		<!--<tr>
 			<td><?php echo $entry_address_2; ?></td>			
 		</tr>
 		<tr>
 			<td><input type="text" name="address_2" value="" class="large-field" /></td>
-		</tr>
+		</tr>-->
 		<tr>
 			<td><span class="required">*</span> <?php echo $entry_city; ?></td>			
 		</tr>
 		<tr>
 			<td><input type="text" name="city" value="" class="large-field" /></td>
 		</tr>
-		<tr>
+		<!--<tr>
 			<td><span id="payment-postcode-required" class="required">*</span> <?php echo $entry_postcode; ?></td>			
 		</tr>
 		<tr>
@@ -123,7 +123,7 @@
 			<td>
 				<select name="zone_id" class="large-field"></select>
 			</td>
-		</tr>
+		</tr>-->
 	</table>
 </div>
 

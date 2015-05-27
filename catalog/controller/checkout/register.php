@@ -182,30 +182,30 @@ class ControllerCheckoutRegister extends Controller {
 				$json['error']['city'] = $this->language->get('error_city');
 			}
 
-			$this->load->model('localisation/country');
+			//$this->load->model('localisation/country');
 			
-			$country_info = $this->model_localisation_country->getCountry($this->request->post['country_id']);
+			//$country_info = $this->model_localisation_country->getCountry($this->request->post['country_id']);
 
-			if ($country_info) {
-				if ($country_info['postcode_required'] && (utf8_strlen($this->request->post['postcode']) < 2) || (utf8_strlen($this->request->post['postcode']) > 10)) {
-					$json['error']['postcode'] = $this->language->get('error_postcode');
-				}
-
-				// VAT Validation
-				$this->load->helper('vat');
-
-				if ($this->config->get('config_vat') && $this->request->post['tax_id'] && (vat_validation($country_info['iso_code_2'], $this->request->post['tax_id']) == 'invalid')) {
-					$json['error']['tax_id'] = $this->language->get('error_vat');
-				}
-			}
+//			if ($country_info) {
+//				if ($country_info['postcode_required'] && (utf8_strlen($this->request->post['postcode']) < 2) || (utf8_strlen($this->request->post['postcode']) > 10)) {
+//					$json['error']['postcode'] = $this->language->get('error_postcode');
+//				}
+//
+//				// VAT Validation
+//				$this->load->helper('vat');
+//
+//				if ($this->config->get('config_vat') && $this->request->post['tax_id'] && (vat_validation($country_info['iso_code_2'], $this->request->post['tax_id']) == 'invalid')) {
+//					$json['error']['tax_id'] = $this->language->get('error_vat');
+//				}
+//			}
 	
-			if ($this->request->post['country_id'] == '') {
-				$json['error']['country'] = $this->language->get('error_country');
-			}
+//			if ($this->request->post['country_id'] == '') {
+//				$json['error']['country'] = $this->language->get('error_country');
+//			}
 			
-			if (!isset($this->request->post['zone_id']) || $this->request->post['zone_id'] == '') {
-				$json['error']['zone'] = $this->language->get('error_zone');
-			}
+//			if (!isset($this->request->post['zone_id']) || $this->request->post['zone_id'] == '') {
+//				$json['error']['zone'] = $this->language->get('error_zone');
+//			}
 	
 			if ((utf8_strlen($this->request->post['password']) < 4) || (utf8_strlen($this->request->post['password']) > 20)) {
 				$json['error']['password'] = $this->language->get('error_password');
@@ -235,14 +235,14 @@ class ControllerCheckoutRegister extends Controller {
 				$this->customer->login($this->request->post['email'], $this->request->post['password']);
 				
 				$this->session->data['payment_address_id'] = $this->customer->getAddressId();
-				$this->session->data['payment_country_id'] = $this->request->post['country_id'];
-				$this->session->data['payment_zone_id'] = $this->request->post['zone_id'];
+				//$this->session->data['payment_country_id'] = $this->request->post['country_id'];
+				//$this->session->data['payment_zone_id'] = $this->request->post['zone_id'];
 									
 				if (!empty($this->request->post['shipping_address'])) {
 					$this->session->data['shipping_address_id'] = $this->customer->getAddressId();
-					$this->session->data['shipping_country_id'] = $this->request->post['country_id'];
-					$this->session->data['shipping_zone_id'] = $this->request->post['zone_id'];
-					$this->session->data['shipping_postcode'] = $this->request->post['postcode'];					
+					//$this->session->data['shipping_country_id'] = $this->request->post['country_id'];
+					//$this->session->data['shipping_zone_id'] = $this->request->post['zone_id'];
+					//$this->session->data['shipping_postcode'] = $this->request->post['postcode'];
 				}
 			} else {
 				$json['redirect'] = $this->url->link('account/success');

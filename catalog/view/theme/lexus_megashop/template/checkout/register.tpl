@@ -17,10 +17,10 @@
 		<input type="text" name="telephone" value="" class="large-field" />
 		<br />
 		<br />
-		<?php echo $entry_fax; ?><br />
+		<!--<?php echo $entry_fax; ?><br />
 		<input type="text" name="fax" value="" class="large-field" />
 		<br />
-		<br />
+		<br />-->
 
 	</div>
 
@@ -37,7 +37,7 @@
         <br />
         <br />
 		<h2><?php echo $text_your_address; ?></h2>
-		<?php echo $entry_company; ?><br />
+		<!--<?php echo $entry_company; ?><br />
 		<input type="text" name="company" value="" class="large-field" />
 		<br />
 		<br />
@@ -67,20 +67,20 @@
 			<input type="text" name="tax_id" value="" class="large-field" />
 			<br />
 			<br />
-		</div>
+		</div>-->
 		<span class="required">*</span> <?php echo $entry_address_1; ?><br />
 		<input type="text" name="address_1" value="" class="large-field" />
 		<br />
 		<br />
-		<!<?php echo $entry_address_2; ?><br />
+		<!--<?php echo $entry_address_2; ?><br />
 		<input type="text" name="address_2" value="" class="large-field" />
 		<br />
-		<br />
+		<br />-->
 		<span class="required">*</span> <?php echo $entry_city; ?><br />
 		<input type="text" name="city" value="" class="large-field" />
 		<br />
 		<br />
-		<span id="payment-postcode-required" class="required">*</span> <?php echo $entry_postcode; ?><br />
+		<!--<span id="payment-postcode-required" class="required">*</span> <?php echo $entry_postcode; ?><br />
 		<input type="text" name="postcode" value="<?php echo $postcode; ?>" class="large-field" />
 		<br />
 		<br />
@@ -101,7 +101,7 @@
 		<select name="zone_id" class="large-field"></select>
 		<br />
 		<br />
-		<br />
+		<br />-->
 	</div>
 </div>
 

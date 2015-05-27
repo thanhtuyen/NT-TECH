@@ -35,31 +35,31 @@
 		<tr>
 			<td><input type="text" name="lastname" value="" class="large-field" /></td>
 		</tr>
-		<tr>
+		<!--<tr>
 			<td><?php echo $entry_company; ?></td>			
 		</tr>
 		<tr>
 			<td><input type="text" name="company" value="" class="large-field" /></td>
-		</tr>
+		</tr>-->
 		<tr>
 			<td><span class="required">*</span> <?php echo $entry_address_1; ?></td>			
 		</tr>
 		<tr>
 			<td><input type="text" name="address_1" value="" class="large-field" /></td>
 		</tr>
-		<tr>
+		<!--<tr>
 			<td><?php echo $entry_address_2; ?></td>			
 		</tr>
 		<tr>
 			<td><input type="text" name="address_2" value="" class="large-field" /></td>
-		</tr>
+		</tr>-->
 		<tr>
 			<td><span class="required">*</span> <?php echo $entry_city; ?></td>			
 		</tr>
 		<tr>
 			<td><input type="text" name="city" value="" class="large-field" /></td>
 		</tr>
-		<tr>
+		<!--<tr>
 			<td><span id="shipping-postcode-required" class="required">*</span> <?php echo $entry_postcode; ?></td>
 		</tr>
 		<tr>
@@ -91,7 +91,7 @@
 			<td>
 				<select name="zone_id" class="large-field"></select>
 			</td>
-		</tr>
+		</tr>-->
 	</table>
 </div>
 

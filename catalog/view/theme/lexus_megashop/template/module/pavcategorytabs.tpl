@@ -25,7 +25,7 @@ $categoryPzoom 	    = $categoryConfig['category_pzoom'];
 	<div class="productcarousel">
 		<?php $image = $this->model_tool_image->resize( $icon, 32,32 );?>
 
-		<div class="category-name <?php echo $prefix_class;?>"><img src="<?php echo $image;?>"><?php echo $category_name;?></div>
+		<div class="category-name <?php echo $prefix_class;?>"><img src="<?php echo $image;?>"><a href="<?php echo $link_category;?>"><?php echo $category_name;?></a></div>
 		<?php if($flag == 0):?>
 		<ul class="nav nav-tabs" id="producttabs<?php echo $id;?>">
 			<?php $i = 0;?>
