@@ -16,4 +16,6 @@ $_['text_download']    = 'Tải về';
 $_['text_return']      = 'Quay lại';
 $_['text_transaction'] = 'Giao dịch';
 $_['text_newsletter']  = 'Thư thông báo';
+$_['text_address']  = 'Đia chỉ';
+
 ?>

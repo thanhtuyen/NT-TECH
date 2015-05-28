@@ -1203,24 +1203,24 @@ class ControllerSaleOrder extends Controller {
 		
 		$this->load->model('localisation/country');
 		
-		$country_info = $this->model_localisation_country->getCountry($this->request->post['payment_country_id']);
-		
-		if ($country_info) {
-			if ($country_info['postcode_required'] && (utf8_strlen($this->request->post['payment_postcode']) < 2) || (utf8_strlen($this->request->post['payment_postcode']) > 10)) {
-				$this->error['payment_postcode'] = $this->language->get('error_postcode');
-			}
-			
-			// VAT Validation
-			$this->load->helper('vat');
-			
-			if ($this->config->get('config_vat') && $this->request->post['payment_tax_id'] && (vat_validation($country_info['iso_code_2'], $this->request->post['payment_tax_id']) == 'invalid')) {
-				$this->error['payment_tax_id'] = $this->language->get('error_vat');
-			}				
-		}
+//		$country_info = $this->model_localisation_country->getCountry($this->request->post['payment_country_id']);
+//
+//		if ($country_info) {
+//			if ($country_info['postcode_required'] && (utf8_strlen($this->request->post['payment_postcode']) < 2) || (utf8_strlen($this->request->post['payment_postcode']) > 10)) {
+//				$this->error['payment_postcode'] = $this->language->get('error_postcode');
+//			}
+//
+//			// VAT Validation
+//			$this->load->helper('vat');
+//
+//			if ($this->config->get('config_vat') && $this->request->post['payment_tax_id'] && (vat_validation($country_info['iso_code_2'], $this->request->post['payment_tax_id']) == 'invalid')) {
+//				$this->error['payment_tax_id'] = $this->language->get('error_vat');
+//			}
+//		}
 
-    	if ($this->request->post['payment_country_id'] == '') {
-      		$this->error['payment_country'] = $this->language->get('error_country');
-    	}
+//    	if ($this->request->post['payment_country_id'] == '') {
+//      		$this->error['payment_country'] = $this->language->get('error_country');
+//    	}
 		
     	if (!isset($this->request->post['payment_zone_id']) || $this->request->post['payment_zone_id'] == '') {
       		$this->error['payment_zone'] = $this->language->get('error_zone');
@@ -1268,15 +1268,15 @@ class ControllerSaleOrder extends Controller {
 	
 			$this->load->model('localisation/country');
 			
-			$country_info = $this->model_localisation_country->getCountry($this->request->post['shipping_country_id']);
-			
-			if ($country_info && $country_info['postcode_required'] && (utf8_strlen($this->request->post['shipping_postcode']) < 2) || (utf8_strlen($this->request->post['shipping_postcode']) > 10)) {
-				$this->error['shipping_postcode'] = $this->language->get('error_postcode');
-			}
+//			$country_info = $this->model_localisation_country->getCountry($this->request->post['shipping_country_id']);
+//
+//			if ($country_info && $country_info['postcode_required'] && (utf8_strlen($this->request->post['shipping_postcode']) < 2) || (utf8_strlen($this->request->post['shipping_postcode']) > 10)) {
+//				$this->error['shipping_postcode'] = $this->language->get('error_postcode');
+//			}
 	
-			if ($this->request->post['shipping_country_id'] == '') {
-				$this->error['shipping_country'] = $this->language->get('error_country');
-			}
+//			if ($this->request->post['shipping_country_id'] == '') {
+//				$this->error['shipping_country'] = $this->language->get('error_country');
+//			}
 			
 			if (!isset($this->request->post['shipping_zone_id']) || $this->request->post['shipping_zone_id'] == '') {
 				$this->error['shipping_zone'] = $this->language->get('error_zone');

@@ -227,8 +227,8 @@
 	<?php } else { ?>
 		<?php echo $powered; ?>. 
 	<?php } ?>
-	Designed by <a href="http://www.themelexus.com" title="pavethemes - opencart themes clubs" target="_blank">ThemeLexus</a></div>
-	<div class="paypal pull-right"><a href="#"><img src="image/data/paypal.png" alt="payment" /></a></div></div></div>
+	Designed by TUYENTN</div>
+	<!--<div class="paypal pull-right"><a href="#"><img src="image/data/paypal.png" alt="payment" /></a></div></div></div>-->
 	
 </footer>
 
@@ -236,9 +236,9 @@
 OpenCart is open source software and you are free to remove the powered by OpenCart if you want, but its generally accepted practise to make a small donation.
 Please donate via PayPal to donate@opencart.com
 //-->
-<?php if( isset($themeConfig['enable_paneltool']) && $themeConfig['enable_paneltool'] ){  ?>
+<!--<?php if( isset($themeConfig['enable_paneltool']) && $themeConfig['enable_paneltool'] ){  ?>
 	<?php  echo $helper->renderAddon( 'panel' );?>
-<?php } ?>
+<?php } ?>-->
 
 <script type="text/javascript">
 	$(document).ready(function() {

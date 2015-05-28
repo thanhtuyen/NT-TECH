@@ -212,20 +212,14 @@
             <td><?php echo $payment_postcode; ?></td>
           </tr>
           <?php } ?>
-          <tr>
-            <td><?php echo $text_zone; ?></td>
-            <td><?php echo $payment_zone; ?></td>
-          </tr>
+
           <?php if ($payment_zone_code) { ?>
           <tr>
             <td><?php echo $text_zone_code; ?></td>
             <td><?php echo $payment_zone_code; ?></td>
           </tr>
           <?php } ?>
-          <tr>
-            <td><?php echo $text_country; ?></td>
-            <td><?php echo $payment_country; ?></td>
-          </tr>
+
           <tr>
             <td><?php echo $text_payment_method; ?></td>
             <td><?php echo $payment_method; ?></td>
@@ -281,20 +275,14 @@
             <td><?php echo $shipping_postcode; ?></td>
           </tr>
           <?php } ?>
-          <tr>
-            <td><?php echo $text_zone; ?></td>
-            <td><?php echo $shipping_zone; ?></td>
-          </tr>
+
           <?php if ($shipping_zone_code) { ?>
           <tr>
             <td><?php echo $text_zone_code; ?></td>
             <td><?php echo $shipping_zone_code; ?></td>
           </tr>
           <?php } ?>
-          <tr>
-            <td><?php echo $text_country; ?></td>
-            <td><?php echo $shipping_country; ?></td>
-          </tr>
+
           <?php if ($shipping_method) { ?>
           <tr>
             <td><?php echo $text_shipping_method; ?></td>
