@@ -356,8 +356,8 @@
 	
 			<div class="share">
 				<!-- AddThis Button BEGIN -->
-				<div class="addthis_default_style"><a class="addthis_button_compact"><?php echo $text_share; ?></a> <a class="addthis_button_email"></a><a class="addthis_button_print"></a> <a class="addthis_button_facebook"></a> <a class="addthis_button_twitter"></a></div>
-				<script type="text/javascript" src="//s7.addthis.com/js/250/addthis_widget.js"></script>
+                <div class="addthis_toolbox addthis_default_style"><a class="addthis_button_facebook_like" fb:like:layout="button_count"></a> <a class="addthis_button_tweet"></a> <a class="addthis_button_pinterest_pinit"></a> <a class="addthis_counter addthis_pill_style"></a></div>
+                <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-515eeaf54693130e"></script>
 				<!-- AddThis Button END --> 
 			</div>
 		
@@ -477,7 +477,7 @@
 	?>
 	<div class="box box-product product-related">
 		<div class="box-heading">
-			<span><?php echo $tab_related; ?> (<?php echo count($products); ?>)</span>
+			<span style="color: white;"><?php echo $tab_related; ?> (<?php echo count($products); ?>)</span>
 		</div>
 		<div class="box-content">
 			<div class="box-product">
